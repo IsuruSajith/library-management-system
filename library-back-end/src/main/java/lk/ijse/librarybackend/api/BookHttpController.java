@@ -9,7 +9,7 @@ import java.util.List;
 
 @CrossOrigin
 @RequestMapping("/api/v1/books")
-
+@RestController
 public class BookHttpController {
 
     @GetMapping()

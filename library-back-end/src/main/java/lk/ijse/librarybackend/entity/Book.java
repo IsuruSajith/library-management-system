@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Book {
+public class Book implements SupperEntity{
     private String isbn;
     private String title;
 }
